@@ -1,0 +1,17 @@
+.head{
+    background: rgb(0,6,36);
+background: linear-gradient(90deg, rgba(0,6,36,1) 44%, rgba(9,73,121,0.8463760504201681) 88%, rgba(0,146,255,1) 100%);
+     padding:0;
+     text-align: center;
+     color: white;
+     margin: 0;
+}
+.Project{
+    background: rgb(0,6,36);
+background: linear-gradient(90deg, rgba(0,6,36,1) 44%, rgba(9,73,121,0.8463760504201681) 88%, rgba(0,146,255,1) 100%);
+    padding:2%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+

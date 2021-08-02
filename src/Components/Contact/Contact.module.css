@@ -1,0 +1,19 @@
+ .Contact{
+     background-color: #361E46;
+     height: 35vh;
+     align-items: center;
+     padding: 0%;
+     margin: 0%;
+ }
+ .Contact h1{
+     text-align: center;
+     margin-bottom: 7%;
+ }
+ .Contact .ContactIcons{
+     width:98.6%;
+     display: flex;
+     justify-content:center;
+ }
+ .Contact .ContactIcons svg path{
+     cursor:pointer;
+ }

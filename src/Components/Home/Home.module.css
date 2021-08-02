@@ -1,0 +1,43 @@
+.Home{
+    background: rgb(54,30,70);
+    background: linear-gradient(90deg, rgba(54,30,70,1) 66%, rgba(140,28,209,1) 95%);
+    display: flex;
+    height: 85vh;
+    padding-top: 80px;
+    padding-bottom: 40%;
+    position: relative;
+}
+.Home .Container{
+    position:absolute;
+    top:15%;
+    left:2%;
+    color:white;
+}
+.Home .Container .Hello{
+    font-size: 4.5rem;
+}
+.Home .Container h1{
+    margin:0;
+}
+.Home .Coder{
+    width: 150%;
+    max-width: 500px;
+    height:35%;
+    position:absolute;
+    right:3%;
+    top:20%;
+}
+.Home .Code{
+    width: 30%;
+    max-width: 200px;
+    position:absolute;
+    height:24%;
+    bottom:0%;
+    left:2%;
+}
+@media(max-width:1200px){
+
+    .Home .Coder{
+        display: none;
+    }
+}
