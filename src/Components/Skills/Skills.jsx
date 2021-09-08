@@ -60,6 +60,9 @@ const Skills = () =>{
     return(
         <>
         <div className={classes.Skills} id="skills">
+        <div  data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2300">
          <PageHeader title={"What About The Skills?"}/>
          <p>
          Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young.
@@ -69,11 +72,14 @@ const Skills = () =>{
           { Totalskills.map(skills => {
               return(
                   <div className={classes.List}>
+                  <div data-aos="zoom-in-down" data-aos-duration="4000">
                   {skills}
+                  </div>
                   </div>
               );
           })}
          </div> 
+        </div>
         </div>
         </>
     );

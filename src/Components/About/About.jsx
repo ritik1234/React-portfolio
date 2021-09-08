@@ -6,6 +6,7 @@ const About = () =>{
     return(
         <>
         <div className={classes.AboutMe} id="about">
+        <div data-aos="fade-up" data-aos-duration="3000">
          <PageHeader title={"About Me"}></PageHeader>
          <div className={classes.Container}>
              <div className={classes.Text}>
@@ -15,9 +16,12 @@ const About = () =>{
                  </p>
              </div>
              <div className={classes.Photo}>
+             <div data-aos="fade-right">
                  <img className={classes.Me} src={Me} alt="My Image"></img>
+                 </div>
              </div>
          </div>
+        </div>
         </div>
         </>
     );

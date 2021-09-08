@@ -10,7 +10,9 @@ const Contact = () =>{
     return(
         <>
         <div className={classes.Contact} id="contact">
+        <div data-aos="zoom-in-up">
         <h1>Connect</h1>
+        </div>
          <div className={classes.ContactIcons}>
              <motion.div style = {{marginLeft:'2%'}} whileHover={{scale:1.2}}>
              <FaLinkedinIn color='white' size='45px' style={{padding:'1%'}} onClick={handleURL('https://www.linkedin.com/in/ritik-ahlawat-28b1371ab/')}></FaLinkedinIn>

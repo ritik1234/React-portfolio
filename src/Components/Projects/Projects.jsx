@@ -10,10 +10,13 @@ const handleURL=(url) =>{
 const Project = () =>{
     return(
         <>
-        <h1 className={classes.head}>Projects</h1>
+        <h1 className={classes.head}><div data-aos="zoom-in" data-aos-duration="3500">Projects</div></h1>
         <div className={classes.Project} id="projects">
         <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000">
          <div className="card">
   <div className="card-body">
     <h2 className="card-title">Website</h2>
@@ -24,7 +27,11 @@ const Project = () =>{
   </div>
   </div>
   </div>
+  </div>
   <div className="col">
+  <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000">
   <div className="card">
   <div className="card-body">
     <h2 className="card-title">Flower Class Predictor</h2>
@@ -35,7 +42,11 @@ const Project = () =>{
   </div>
   </div>
   </div>
+  </div>
   <div className="col">
+  <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000">
   <div className="card">
   <div className="card-body">
     <h2 className="card-title">Notepad GUI</h2>
@@ -44,6 +55,7 @@ const Project = () =>{
     <motion.a onClick={handleURL('https://github.com/ritik1234/notepad.git')} className="btn btn-primary" whileHover={{scale:1.15}}>Repo Link</motion.a>
      </div>
   </div>
+</div>
 </div>
 </div>
 </div>
