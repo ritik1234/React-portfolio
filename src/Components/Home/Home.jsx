@@ -7,10 +7,12 @@ const Home = () =>{
         <>
         <div className={classes.Home} id="home">
          <div className={classes.Container}>
-         <div data-aos="zoom-in" data-aos-duration="1000">
+         <div data-aos="fade-right" data-aos-duration="1500">
              <h1 className={classes.Hello}>
                  Welcome To My Portfolio
              </h1>
+             </div>
+             <div data-aos="fade-left" data-aos-duration="1500">
              <h1>You can find my work, thoughts, and ideas here.</h1> 
              </div>
          </div>

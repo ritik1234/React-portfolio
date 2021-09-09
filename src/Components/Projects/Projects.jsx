@@ -58,6 +58,37 @@ const Project = () =>{
 </div>
 </div>
 </div>
+<div className="col">
+  <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000">
+  <div className="card">
+  <div className="card-body">
+    <h2 className="card-title">Facial expression Recognition.</h2>
+    <p className="card-text"> 
+    In this I used OpenCV to detect our face and a deep learning model that is built on FER2013 dataset which predict some result then it is mapped with the corresponding emoji. I also uses Python Tkinter GUI to display the camera window and emoji at the same place.</p>
+    <div className="card-footer">
+    <motion.a onClick={handleURL('https://github.com/ritik1234/Facial_expression_recognition.git')} className="btn btn-primary" whileHover={{scale:1.15}}>Repo Link</motion.a>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+<div className="col">
+  <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000">
+  <div className="card">
+  <div className="card-body">
+    <h2 className="card-title">Portfolio website</h2>
+    <p className="card-text">In this i used HTML, CSS, Javascript, React.js and to make it animated i used AOS animation.</p>
+    <div className="card-footer">
+    <motion.a onClick={handleURL('https://github.com/ritik1234/React-portfolio.git')} className="btn btn-primary" whileHover={{scale:1.15}}>Repo Link</motion.a>
+     </div>
+  </div>
+</div>
+</div>
+</div>
 </div>
         </div>
         </>

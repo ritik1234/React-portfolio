@@ -12,7 +12,10 @@ const About = () =>{
              <div className={classes.Text}>
                  <h2>Hello: Iam Ritik</h2>
                  <p>
-                     I am an IT student at UIET, Panjab University, Chandigarh. I like to do coding and always focussing learning new things.
+                     I am an IT student at UIET, Panjab University, Chandigarh.
+                 </p>
+                 <p>
+                 I always try focussing learning new things.
                  </p>
              </div>
              <div className={classes.Photo}>
